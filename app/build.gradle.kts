@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.newsapp"
-        minSdk = 24
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -68,6 +68,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //Splash Api
+    implementation (libs.androidx.core.splashscreen)
 
     // Compose Navigation
     implementation (libs.androidx.navigation.compose)
