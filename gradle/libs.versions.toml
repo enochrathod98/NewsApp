@@ -1,6 +1,6 @@
 [versions]
 accompanistSystemuicontroller = "0.31.4-beta"
-agp = "8.4.1"
+agp = "8.6.0"
 coilCompose = "2.4.0"
 converterGson = "2.9.0"
 coreSplashscreen = "1.0.1"
